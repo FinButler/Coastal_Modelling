@@ -42,7 +42,7 @@ options.swe_timestepper_type = 'CrankNicolson'
 options.timestep = 5
 
 # Choose output directory and desired outputs
-options.output_directory = 'FB_tsunami_outputs'
+options.output_directory = 'simple_tsunami_outputs'
 options.fields_to_export = ['elev_2d', 'uv_2d']
 
 # Inclusion of wetting and drying as well as friction parameter
