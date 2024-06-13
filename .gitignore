@@ -2,3 +2,6 @@
 simple_tsunami_outputs
 notebook_outputs
 .ipynb_checkpoints
+HNO_tsunami/__pycache__
+HNO_tsunami/outputs
+
