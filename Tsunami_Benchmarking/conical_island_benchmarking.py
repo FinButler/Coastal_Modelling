@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning, module="firedrake.interpolation")
 
 # Load predefined mesh
-mesh2d = Mesh('conical_island_mesh/conical_mesh_2.msh')
+mesh2d = Mesh('req_data/conical_mesh_2.msh')
 P1_2d = FunctionSpace(mesh2d, 'CG', 1)
 
 # Input bathymetry parameters
@@ -119,4 +119,4 @@ for name, (sta_x, sta_y) in stations:
     solver_obj.add_callback(cb)
 
 # Begin Solving
-solver_obj.iterate(update_forcings=update_forcings)
+#solver_obj.iterate(update_forcings=update_forcings)
