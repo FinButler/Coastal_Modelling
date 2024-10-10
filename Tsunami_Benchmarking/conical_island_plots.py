@@ -5,7 +5,7 @@ import numpy as np
 from thetis import *
 
 # Load laboratory data and assign desired outputs to plot
-df = pd.read_excel('Conical Island Benchmarking.xlsx', sheet_name='TR A')
+df = pd.read_excel('req_data/Conical Island Benchmarking.xlsx', sheet_name='TR A')
 options.output_directory = 'conical_island_outputs_nh_0.32_f0.0015_v0.001'
 
 
